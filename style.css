@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0px;
+  background-image: url(gambar/bg\ pnm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #222831;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 2px;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li:hover {
+  background-color: #76abae;
+  border-radius: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 60%;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+footer {
+  background-color: #31363f;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.profile-info .info {
+  text-align: left;
+}
+
+.profile-info h2 {
+  margin-top: 0;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-info img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.about-info img:hover {
+  transform: scale(1.1);
+}
+
+.about-info .info {
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.hobby-item {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.hobby-item img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.hobby-item img:hover {
+  transform: scale(1.1);
+}
+
+.hobby-item .hobby-info {
+  flex: 1;
+}
+
+.hobby-header {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  writing-mode: vertical-rl;
+}
+
+.hobby-item h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hobby-item p {
+  margin: 0;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label[for="ttl"] {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
